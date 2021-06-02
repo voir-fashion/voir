@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <noscript>You need to enable JS to see this website</noscript>
+  <body onload="randomQuotes()">
+
+    <script>
+    var quotes = ['Vanity Drop soon', 'Acess: v0ir.com/[vanity_drop_key]', 'Loading_Drip_XXX']
+    function randomQuotes() {
+        var idx = Math.floor(Math.random() * quotes.length)
+        document.getElementById('quote').innerHTML = quotes[idx]
+    }
+    </script>
+
+     
+
+  <title>v0ir | Vanity Homepage</title>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="voir fashion">
+  <meta property="og:description" content="Fashion. Coming soon!">
+  <meta property="og:image" content="/css/vanity2.png>
+    <meta name="viewport" content="width=device-width">
+    
+<style>
+.bgimg {
+background-color: #E298A9;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+hr {
+    border-color: #E298A9;
+    background-color: lightslategray;
+  margin: auto;
+  width: 40%;
+  border-width: 2px;
+  transition: 7s;
+}
+
+
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(255, 254, 253); }
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.typewriter:hover {
+  color:yellow
+}
+
+.button1 {
+  width: 120px;
+  height: 30px;
+  background: rgb(255, 255, 255);
+  border-radius: 12px;
+  transition: 5s;
+}
+
+
+
+</style>
+<body>
+
+<div class="bgimg">
+  <div class="topleft">
+    <a href="https://voir.timdres.com/">
+        <img border="0" alt="imageeeeeeeee" src="/css/vanity2.png" width="100" height="100">
+</a>
+  </div>
+  <div class="middle">
+      <p>voir fashion | private collection</p>
+    <hr>
+    <div class="typewriter">
+    <p id="quote" style="font-family: ;"></p>
+    </div>
+        
+         </div>
+       
+    
+
+
+  </div>
+  <div class="bottomleft">
+  </div>
+</div>
+
+</body>
